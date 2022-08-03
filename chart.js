@@ -13,14 +13,23 @@ document.addEventListener('DOMContentLoaded', function () {
             type:'areaspline',
             zoomType: 'xy'
         },
+        // tooltip: {
+        //     // shared: false,
+        //     // crosshairs: true,
+        //     animation: false,
+        //     backgroundColor: 'yellow',
+        //     borderColor: '#000000',
+        //     borderRadius: 10,
+        // },
         tooltip: {
-            // shared: false,
-            // crosshairs: true,
-            animation: false,
-            backgroundColor: 'yellow',
-            borderColor: '#000000',
-            borderRadius: 10,
+          formatter: function () {
+            return `<strong> X value</strong>: ${this.x}. <em>  <strong>Y value</strong></em>: ${this.y}`;
+              
+          }
+
+
         },
+
         colors: ['#7cb5ec', '#f7a35c', '#90ed7d', '#f7a35c', '#8085e9', ],
         cedits: {
             enabled: false,
@@ -38,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
             text: 'Fruit Consumption'
         },
         xAxis: {
-            categories: ['Apples', 'Bananas', 'Oranges']
+            categories: ['Apples', 'Bananas', 'Oranges','Pears','Grapes','Plums','Strawberries','Raspberries','Mangos']
         },
         yAxis: {
             title: {
