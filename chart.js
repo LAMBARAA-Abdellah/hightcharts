@@ -7,15 +7,21 @@ document.addEventListener('DOMContentLoaded', function () {
             // type:'area'
             //  type:'scatter'
             //  type:'spline'
-              type:'areaspline'
             //   type:'bar'
             //    type:'arearange'
             //    type:'columnrange'
+            type:'areaspline',
+            zoomType: 'xy'
         },
         cedits: {
-            // enabled: false,
+            enabled: false,
             text: 'mychart.com',
-            href: 'http://www.google.com/'
+            href: 'http://www.google.com/',
+            position: {
+                align: 'left',
+                x: -10,
+                y: -10
+            }
 
         },
 
