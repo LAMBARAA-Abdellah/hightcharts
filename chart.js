@@ -37,7 +37,17 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             name: 'Abdellah',
-            data: [5, 7, 3,2,1,20,4,3,2]
+            data: [23,1,2,34,1,2,3,4,5]
+        },
+    
+        
+        {
+            name: 'Ahmed',
+            data: [1, 2, 3,4,5,6,7,8,9]
+        },
+        {
+            name: 'Ali',
+            data: [45,3,12,9,5,2,1,2,34]
         }],
         
     });
