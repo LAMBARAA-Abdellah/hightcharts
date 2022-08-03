@@ -20,12 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
             backgroundColor: 'yellow',
             borderColor: '#000000',
             borderRadius: 10,
-         
-           
-          
-
-    
         },
+        colors: ['#7cb5ec', '#f7a35c', '#90ed7d', '#f7a35c', '#8085e9', ],
         cedits: {
             enabled: false,
             text: 'mychart.com',
