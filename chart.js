@@ -3,13 +3,16 @@ document.addEventListener('DOMContentLoaded', function () {
         chart: {
             // type: 'column'
             // type:'pie'
-            // type:'line'
+            type:'line'
             // type:'area'
             //  type:'scatter'
             //  type:'spline'
             //   type:'areaspline'
-              type:'bar'
+            //   type:'bar'
+            //    type:'arearange'
+            //    type:'columnrange'
         },
+
         title: {
             text: 'Fruit Consumption'
         },
@@ -30,4 +33,5 @@ document.addEventListener('DOMContentLoaded', function () {
             data: [5, 7, 3]
         }]
     });
+
 });
