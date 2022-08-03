@@ -13,7 +13,10 @@ document.addEventListener('DOMContentLoaded', function () {
             //    type:'columnrange'
         },
         cedits: {
-            enabled: true
+            // enabled: false,
+            text: 'mychart.com',
+            href: 'http://www.google.com/'
+
         },
 
         title: {
