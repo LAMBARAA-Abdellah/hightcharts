@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
             // type:'area'
             //  type:'scatter'
             //  type:'spline'
-              type:'areaspline'
+            //   type:'areaspline'
+              type:'bar'
         },
         title: {
             text: 'Fruit Consumption'
