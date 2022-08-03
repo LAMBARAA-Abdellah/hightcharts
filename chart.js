@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
    Highcharts.chart('container', {
         chart: {
-            type: 'column'
+            // type: 'column'
+            type:'pie'
         },
         title: {
             text: 'Fruit Consumption'
