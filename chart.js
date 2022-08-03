@@ -14,7 +14,16 @@ document.addEventListener('DOMContentLoaded', function () {
             zoomType: 'xy'
         },
         tooltip: {
-            shared: true
+            // shared: false,
+            // crosshairs: true,
+            animation: false,
+            backgroundColor: 'yellow',
+            borderColor: '#000000',
+            borderRadius: 10,
+         
+           
+          
+
     
         },
         cedits: {
