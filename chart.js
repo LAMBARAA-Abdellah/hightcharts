@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
         chart: {
             // type: 'column'
             // type:'pie'
-            type:'line'
+            // type:'line'
+            type:'area'
         },
         title: {
             text: 'Fruit Consumption'
