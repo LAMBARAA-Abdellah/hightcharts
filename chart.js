@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Jane',
-            data: [1, 0, 4,30,43,23,1,2,34]
+            data: [1, 0, 4,30,43,23,1,2,4]
             
         }, {
             name: 'John',
