@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
             // type:'pie'
             // type:'line'
             // type:'area'
-             type:'scatter'
+            //  type:'scatter'
+             type:'spline'
         },
         title: {
             text: 'Fruit Consumption'
