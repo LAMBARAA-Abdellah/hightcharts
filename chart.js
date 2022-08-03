@@ -22,14 +22,13 @@ document.addEventListener('DOMContentLoaded', function () {
         //     borderRadius: 10,
         // },
         tooltip: {
+            
           formatter: function () {
             return `<strong> X value</strong>: ${this.x}. <em>  <strong>Y value</strong></em>: ${this.y}`;
               
-          }
-
-
+          },
+        shared: true,
         },
-
         colors: ['#7cb5ec', '#f7a35c', '#90ed7d', '#f7a35c', '#8085e9', ],
         cedits: {
             enabled: false,
@@ -56,7 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Jane',
-            data: [1, 0, 4,30,43,23,1,2,4]
+            // alternateGridColor: 'red',
+            data: [1, 0, 4,30,-43,23,1,2,4]
             
         }, {
             name: 'John',
