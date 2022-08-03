@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
    Highcharts.chart('container', {
-        // chart: {
-        //     type: 'bar'
-        // },
-        // title: {
-        //     text: 'Fruit Consumption'
-        // },
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Fruit Consumption'
+        },
         xAxis: {
             categories: ['Apples', 'Bananas', 'Oranges']
         },
