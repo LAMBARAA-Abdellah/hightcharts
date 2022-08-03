@@ -13,6 +13,10 @@ document.addEventListener('DOMContentLoaded', function () {
             type:'areaspline',
             zoomType: 'xy'
         },
+        tooltip: {
+            shared: true
+    
+        },
         cedits: {
             enabled: false,
             text: 'mychart.com',
